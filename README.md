@@ -55,6 +55,15 @@ Network Security Groups control traffic between application and database network
 
 The application subnet permits HTTP traffic from the Application Gateway subnet. A database security rule is configured to permit MySQL traffic on port 3306 from the application subnet.
 
+
+
+### Azure Deployment Architecture
+
+![Nova Retail Azure Architecture](architecture/nova-retail-azure-architecture.png)
+
+The architecture illustrates the Azure Virtual Network, segmented subnets, Application Gateway, Linux application VM, and reserved database tier.
+
+The infrastructure is deployed in South Africa North using Terraform.
 ## Azure Infrastructure Components
 
 | Component | Purpose |
