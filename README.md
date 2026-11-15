@@ -78,6 +78,14 @@ The infrastructure is deployed in South Africa North using Terraform.
 | Application Gateway | Provides public HTTP entry and routes requests to the application |
 | Terraform | Provisions and manages infrastructure |
 
+## Application Deployment
+
+The Nova Retail web application was successfully deployed to an Ubuntu Linux virtual machine in Azure and exposed through Azure Application Gateway Standard_v2.
+
+### Live Application
+
+![Nova Retail Application Running on Azure](screenshots/azure/nova-retail-application-running.png)
+
 ## Application
 
 The Nova Retail demonstration application is hosted on an Ubuntu Linux virtual machine.
