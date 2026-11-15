@@ -1,0 +1,14 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+terraform-state-backup.json
+
+# Terraform plans
+*.tfplan
+
+# Sensitive variable files
+terraform.tfvars
+*.auto.tfvars
